@@ -1,36 +1,22 @@
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
-minimal_mistakes_skin: "air" # Options: air, aqua, contrast, dark, dirt, sunrise
+minimal_mistakes_skin: "aqua"
 
-# Site Settings
+# Site Info
 title: "Atharva Nikam"
-name: "Atharva Nikam"
-description: "Mechatronics M.Sc. Student | CAD & FEA Specialist"
+description: "Mechatronics Engineer"
 url: "https://atharvanikam.github.io"
-baseurl: "" # Leave empty
+baseurl: ""
 
-# Fixed: This tells GitHub to use the theme's default layouts
-defaults:
-  - scope:
-      path: ""
-      type: "pages"
-    values:
-      layout: "single"
-      author_profile: true
-
-# Sidebar / Author Info
+# Profile Settings
 author:
   name: "Atharva Nikam"
-  avatar: "/iMAGE3.jpg"
+  avatar: "/profile.jpg"
   bio: "M.Sc. Mechatronics @ RWU Germany"
-  location: "Baden-Württemberg, Germany"
+  location: "Germany"
   links:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://linkedin.com/in/atharva-nikam1104"
 
-# Plugins required by the theme
-plugins:
-  - jekyll-gist
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-include-cache # This helps fix the error you saw
+# This forces GitHub to see the index.md
+include: ["index.md", "assets"]
