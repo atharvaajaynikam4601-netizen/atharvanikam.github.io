@@ -1,18 +1,36 @@
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
-minimal_mistakes_skin: "air" # 'air' is clean and white. Try 'contrast' for a sharper look.
+minimal_mistakes_skin: "air" # Options: air, aqua, contrast, dark, dirt, sunrise
 
+# Site Settings
 title: "Atharva Nikam"
 name: "Atharva Nikam"
-bio: "Mechatronics M.Sc. Student | CAD & FEA Specialist"
-location: "Weingarten, Germany"
+description: "Mechatronics M.Sc. Student | CAD & FEA Specialist"
+url: "https://atharvanikam.github.io"
+baseurl: "" # Leave empty
 
-# Sidebar info
+# Fixed: This tells GitHub to use the theme's default layouts
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "single"
+      author_profile: true
+
+# Sidebar / Author Info
 author:
   name: "Atharva Nikam"
-  avatar: "/iMAGE3.jpg" # Make sure your photo is named this
+  avatar: "/iMAGE3.jpg"
   bio: "M.Sc. Mechatronics @ RWU Germany"
   location: "Baden-Württemberg, Germany"
   links:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
-      url: "https://linkedin.com/in/atharva-nikam1104/"
+      url: "https://linkedin.com/in/atharva-nikam1104"
+
+# Plugins required by the theme
+plugins:
+  - jekyll-gist
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-include-cache # This helps fix the error you saw
