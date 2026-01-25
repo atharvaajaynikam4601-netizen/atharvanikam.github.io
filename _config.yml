@@ -1,5 +1,18 @@
-remote_theme: mmistakes/minimal-mistakes
-title: Atharva Nikam
-description: Mechatronics Master’s student in Germany with a strong mechanical engineering background. Experienced in CAD design (CATIA V5, SolidWorks), FEA using ANSYS, and industrial project execution. Passionate about electrical drives, power electronics, and sustainable engineering solutions.
-google_analytics: 
-show_downloads: false
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+minimal_mistakes_skin: "air" # 'air' is clean and white. Try 'contrast' for a sharper look.
+
+title: "Atharva Nikam"
+name: "Atharva Nikam"
+bio: "Mechatronics M.Sc. Student | CAD & FEA Specialist"
+location: "Weingarten, Germany"
+
+# Sidebar info
+author:
+  name: "Atharva Nikam"
+  avatar: "/iMAGE3.jpg" # Make sure your photo is named this
+  bio: "M.Sc. Mechatronics @ RWU Germany"
+  location: "Baden-Württemberg, Germany"
+  links:
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://linkedin.com/in/atharva-nikam1104/"
