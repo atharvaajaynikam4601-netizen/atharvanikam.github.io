@@ -1,21 +1,5 @@
 remote_theme: pages-themes/merlot@v0.2.0
-
-# Site Info
-title: "Atharva Nikam"
-description: "Mechatronics Engineer"
-url: "https://atharvanikam.github.io"
-baseurl: ""
-
-# Profile Settings
-author:
-  name: "Atharva Nikam"
-  avatar: "/iMAGE3.jpg"
-  bio: "M.Sc. Mechatronics @ RWU Germany"
-  location: "Germany"
-  links:
-    - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin"
-      url: "https://linkedin.com/in/atharva-nikam1104/"
-
-# This forces GitHub to see the index.md
-include: ["index.md", "assets"]
+title: Atharva Nikam
+description: Mechatronics Master’s student in Germany with a strong mechanical engineering background. Experienced in CAD design (CATIA V5, SolidWorks), FEA using ANSYS, and industrial project execution. Passionate about electrical drives, power electronics, and sustainable engineering solutions.
+google_analytics: 
+show_downloads: false
