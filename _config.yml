@@ -10,13 +10,13 @@ baseurl: ""
 # Profile Settings
 author:
   name: "Atharva Nikam"
-  avatar: "/profile.jpg"
+  avatar: "/iMAGE3.jpg"
   bio: "M.Sc. Mechatronics @ RWU Germany"
   location: "Germany"
   links:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
-      url: "https://linkedin.com/in/atharva-nikam1104"
+      url: "https://linkedin.com/in/atharva-nikam1104/"
 
 # This forces GitHub to see the index.md
 include: ["index.md", "assets"]
