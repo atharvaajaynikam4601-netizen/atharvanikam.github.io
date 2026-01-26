@@ -1,4 +1,4 @@
-remote_theme: mmistakes/minimal-mistakes
+remote_theme: tedivm/jekyll-theme-portfolio
 title: Atharva Nikam
 description: Mechatronics M.Sc. Student | Mechanical Design, CAD & FEA | Electrical Drives
 markdown: kramdown
