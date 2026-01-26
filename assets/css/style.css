@@ -98,3 +98,30 @@ h1 {
 .nav-container nav a:hover {
   opacity: 1;
 }
+
+/* ---------- SECTIONS ---------- */
+.section {
+  padding: 5rem 2rem;
+  background: #ffffff;
+}
+
+.section:nth-child(even) {
+  background: #f4f6f8;
+}
+
+.container {
+  max-width: 1000px;
+  margin: auto;
+}
+
+.section h2 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  color: #203a43;
+}
+
+.section p {
+  line-height: 1.7;
+  margin-bottom: 1rem;
+  max-width: 850px;
+}
