@@ -1,6 +1,0 @@
-remote_theme: thelehhman/plainwhite-jekyll
-title: Atharva Nikam
-description: Mechatronics M.Sc. Student | Mechanical Design, CAD & FEA | Electrical Drives
-markdown: kramdown
-plugins:
-  - jekyll-include-cache
