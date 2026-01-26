@@ -1,4 +1,6 @@
-remote_theme: pages-themes/architect@v0.2.0
+remote_theme: mmistakes/minimal-mistakes
 title: Atharva Nikam
-description: Mechatronics M.Sc. Student | CAD, FEA & Mechanical Design | Electrical Drives Focus
-show_downloads: false
+description: Mechatronics M.Sc. Student | Mechanical Design, CAD & FEA | Electrical Drives
+markdown: kramdown
+plugins:
+  - jekyll-include-cache
