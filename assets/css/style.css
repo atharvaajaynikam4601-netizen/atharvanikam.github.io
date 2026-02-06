@@ -229,3 +229,24 @@ body {
   font-weight: 600;
   color: #2c5364;
 }
+
+/* =====================================================
+   SKILLS
+===================================================== */
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 1.2rem;
+  margin-top: 2rem;
+}
+
+.skill-card {
+  padding: 1rem;
+  text-align: center;
+  background: #f4f6f8;
+  border-radius: 6px;
+  font-weight: 600;
+  color: #203a43;
+  box-shadow: inset 0 0 0 1px rgba(0,0,0,0.05);
+}
+
