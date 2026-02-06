@@ -266,3 +266,26 @@ body {
   gap: 1rem;
   flex-wrap: wrap;
 }
+
+/* =====================================================
+   CORE COMPETENCIES
+===================================================== */
+.competency-list {
+  margin-top: 1.5rem;
+  padding-left: 1.2rem;
+}
+
+.competency-list li {
+  margin-bottom: 0.6rem;
+}
+
+/* =====================================================
+   FOOTER
+===================================================== */
+.footer {
+  padding: 1.5rem;
+  text-align: center;
+  background: #0f2027;
+  color: #ffffff;
+  font-size: 0.85rem;
+}
