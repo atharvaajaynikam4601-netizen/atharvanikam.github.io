@@ -63,7 +63,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(135deg, #060d1a 0%, #0d1e3d 60%, #162e5c 100%);
+  background: linear-gradient(135deg, #060d1a, #0d1e3d, #162e5c);
   color: #e2ecf8;
 }
 
