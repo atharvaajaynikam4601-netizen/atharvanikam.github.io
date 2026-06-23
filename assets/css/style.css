@@ -140,11 +140,11 @@ body {
 ===================================================== */
 .section {
   padding: 5rem 2rem;
-  background: #ffffff;
+  background: #ffffff; /* Crisp white for primary content */
 }
 
 .section:nth-child(even) {
-  background: #f4f6f8;
+  background: #f5f7fa; /* Kinetic Silver-Blue background */
 }
 
 .container {
@@ -155,12 +155,13 @@ body {
 .section h2 {
   font-size: 2rem;
   margin-bottom: 1.5rem;
-  color: #203a43;
+  color: #0b1528; /* High-energy deep navy for sharp headers */
 }
 
 .section p {
   max-width: 850px;
   margin-bottom: 1rem;
+  color: #1a202c; /* Kinetic Silver-Blue text for high readability */
 }
 
 /* =====================================================
