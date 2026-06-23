@@ -63,8 +63,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(135deg, #060d1a, #0d1e3d, #162e5c);
-  color: #e2ecf8;
+  background: linear-gradient(135deg, #07111e 0%, #10223b 70%, #004466 100%);
+  color: #f0f7ff;
 }
 
 .hero-content {
