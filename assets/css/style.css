@@ -63,8 +63,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(135deg, #0b1528 0%, #152c4e 50%, #1a3d6c 100%);
-  color: #f5f7fa; /* Matches Kinetic Silver-Blue background exactly */
+  background: linear-gradient(135deg, #060d1a 0%, #0d1e3d 60%, #162e5c 100%);
+  color: #e2ecf8;
 }
 
 .hero-content {
